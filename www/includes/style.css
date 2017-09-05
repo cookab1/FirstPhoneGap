@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@import url(https://fonts.googleapis.com/css?family=GFS+Didot);
+
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Courier New";
+	text-align: center;
+	color: #333;
+	background: #FFF;
+    display: block;
+}
+
+a.textlink {
+	color: #CDB380;
+}
+
+
+
+
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+
+
+
+header {
+	width: 100%;
+	
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	background-color: #BBB;
+	text-align: center;
+}
+
+header div.logo {
+	font-size: 30px;
+	font-weight: normal;
+	color: #FFF;
+	letter-spacing: 0.2em;
+	padding: 6px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline;
+}
+
+
+header div.query {
+	background-color: #DDD;
+	padding: 10px;
+	width: auto;
+}
+
+form {
+	margin: 0;
+}
+
+input {
+	font-family: "Courier New";
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	height: 30px;
+	border: none;
+	border-radius: 4px;
+	-webkit-appearance: none;
+}
+
+input[type=text], select {
+	padding-left: 10px;
+}
+
+input[type=submit] {
+	font-weight: bold;
+	width: 35px;
+	background-color: #CDB380;
+	color: white;
+	cursor: pointer;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+
+
+
+
+main {
+	max-width: 400px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	text-align: left;
+	display: inline-block;
+}
+
+main h2 {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+main h3 {
+	color: #CDB380;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.2em;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+main .section {
+	max-width: inherit;
+	margin: 0 auto;
+}
+
+main .extraspace {
+	height: 120px;
+	padding-bottom: 10px;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+}
+
+td.V_num {
+	font-weight: bold;
+	text-align: right;
+	margin: 0;
+	padding-right: 10px;
+}
+
+td.col {
+	vertical-align: top;
+}
+
+td.full {
+    background-color: #EEE;
+    display: none;
+}
+
+
+.highlight {
+    background-color: #EEE;
+}
+
+
+
+footer {
+}
